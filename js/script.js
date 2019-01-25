@@ -51,7 +51,7 @@ function showCountriesList(resp) {
         var left = document.createElement('p');
         left.innerHTML = "Landarea: ";
         var right = document.createElement('p');
-        right.innerHTML = item.area;
+        right.innerHTML = item.area + " sq. km";
         area.appendChild(left);
         area.appendChild(right);
 
